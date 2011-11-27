@@ -4,18 +4,18 @@
  * Released under an MIT/GPL license
  * todo: split out into individual files
  */
- 
+
 // Microdata support
-Modernizr.addTest('microdata', !! (document["getItems"]);
+Modernizr.addTest('microdata', !!(document["getItems"]);
 
 // Mozilla Audio API
-Modernizr.addTest('audioDataApi', !! new Audio().mozSetup);
+Modernizr.addTest('audioDataApi', !!new Audio().mozSetup);
 
 // WebAudio API
-Modernizr.addTest('webAudioApi', !! (window.webkitAudioContext || window.AudioContext));
+Modernizr.addTest('webAudioApi', !!(window.webkitAudioContext || window.AudioContext));
 
 // Generic Audio/WebAudio API support
-Modernizr.addTest('audioAPIs', !! (window.webkitAudioContext || window.AudioContext || (new Audio().mozSetup));
+Modernizr.addTest('audioAPIs', !!(window.webkitAudioContext || window.AudioContext || (new Audio().mozSetup));
 });
 
 // Track API
