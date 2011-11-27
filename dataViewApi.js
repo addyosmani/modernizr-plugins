@@ -1,0 +1,1 @@
+Modernizr.addTest('dataView', (typeof DataView !== 'undefined' && 'getFloat64' in DataView.prototype));

@@ -1,0 +1,1 @@
+Modernizr.addTest('eventSource', ('EventSource' in window));
