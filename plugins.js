@@ -22,7 +22,7 @@ Modernizr.addTest('audioAPIs', !!(window.webkitAudioContext || window.AudioConte
 Modernizr.addTest('trackApi', (typeof (document.createElement("video").addTextTrack) === "function"));
 
 // EventSource API
-Modernizr.addTest('eventSource', ("EventSources" in window));
+Modernizr.addTest('eventSource', ("EventSource" in window));
 
 // APNG Animated PNG support
 Modernizr.addTest('apng', function () {
