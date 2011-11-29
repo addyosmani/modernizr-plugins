@@ -1,2 +1,2 @@
 // Microdata support
-Modernizr.addTest('microdata', !!(document['getItems']);
+Modernizr.addTest('microdata', !!(document['getItems']));

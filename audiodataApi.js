@@ -1,2 +1,2 @@
 // Mozilla Audio API
-Modernizr.addTest('audioDataApi', !!new Audio().mozSetup);
+Modernizr.addTest('audioDataApi', (!!window.Audio));
