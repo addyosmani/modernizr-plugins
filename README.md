@@ -11,6 +11,7 @@ Current feature-detection plugins in this repo:
 <li>Both (Moz/WebAudio API)</li>
 <li>Track API</li>
 <li>getUserMedia/device API</li>
+<li>GamePad API</li>
 <li>EventSource API</li>
 <li>Animated PNG</li>
 <li>Progress <progress></li>
