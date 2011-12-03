@@ -17,6 +17,8 @@ Current feature-detection plugins in this repo:
 <li>Progress <progress></li>
 <li>ContextMenu</li>
 <li>ClassList</li>
+<li>Time</li>
+<li>contentEditable</li>
+<li>Output</li>
 </ul>
 
-Todo: cover more feature tests, include spec information in each plugin, possibly unit tests.
